@@ -24,4 +24,4 @@ jobs:
 
       - name: Vite Project
         run: |
-          npm run dev  # 根据你的项目配置修改该命令
+          npm run dev1  # 根据你的项目配置修改该命令
