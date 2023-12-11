@@ -1,0 +1,14 @@
+{
+  "name": "test4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "tsx": "^4.6.2",
+    "vite": "^5.0.7"
+  },
+  "scripts": {
+    "dev1": "cross-env NODE_OPTIONS='--loader tsx' vite",
+    "dev2": "cross-env NODE_OPTIONS='--loader tsx/esm' vite"
+  }
+}
